@@ -1,0 +1,183 @@
+body {
+    background-color: #ffff !important;
+    width: 100%;
+}
+
+
+
+/* img{
+	pointer-events: none;
+	
+}
+
+
+img {
+    width: 150px;
+    height: 150px;   
+} */
+
+
+p {
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+/* buton css */
+.btn {
+    display: flex;
+    width: 100%;
+    background-color: #222222 !important;
+    color: #ffff !important;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none !important;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+    
+
+
+.btn:hover {
+    background-color: #C49E4D !important;
+   
+   
+}
+
+
+.card-header {
+    background-color: #ffff !important;
+    padding: 1px;
+    
+
+}
+
+.fa-solid {
+    margin-left: auto;
+}
+
+hr {
+    width: 72%;
+    border: 2px solid #C4934D; 
+}
+   /* CARd YAPIININ AYARLARI BURADA YAPILDI */
+.card-body {
+    height: auto;
+    width: 100%;
+    margin-bottom: 7px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.45); 
+    display:flexbox;
+    height: auto;
+    width: 100%;
+    margin-bottom: 3px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;	
+
+
+}
+
+
+ /* menu sayfaısnın ustunde kı karakoy gumruk yazısı css */
+  .gumruk{
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color:#0f0d0b;
+    margin-top: 100px;
+    background: linear-gradient(90deg, rgba(171, 220, 97, 0.7) 50%, transparent);
+
+  }
+ 
+.price {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background: linear-gradient(100deg, rgba(115, 123, 103, 0.7) 50%, transparent);
+    right: 20px;
+    justify-content: center;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    font-weight: 700;
+    font-size: x-large;
+    width: 120px;
+    z-index: 999;
+    
+}
+
+.fa-turkish-lira-sign {
+    padding: 3px;
+}
+
+.mt-0 {
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* ürün extra div css */
+.extralarBaslik {
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 50px;
+}
+
+
+.extralarHr {
+    margin-top: 20px;
+    width: 70%;
+    border: 1px solid #0f0d0b; 
+}
+
+.extralarContainer div {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-lg{
+	padding-top: 130px !important;
+	
+}
+
+
+.header{
+    width: 100%;
+    height: 18vh;
+    background:linear-gradient(rgba(0,0,0,.8),rgba(15, 14, 14, 0.9)) ,url(./img/bgpıcwelcome.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 8px solid #222;
+  }
+
+
+
+  /* EKRANIN ALTINDA KI BOŞ DİV */
+  .spacer {
+    height: 60px; 
+}
+
+
+
+
+
+/* ALERJEN UYARI IMG CSS */
+#fullscreen-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none; /* Sayfa yüklendiğinde görünmez */
+}
