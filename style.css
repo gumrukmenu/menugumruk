@@ -121,8 +121,29 @@ img{
   background-color: #222 !important;
 }  
 
+.btn {
+  background-color: rgba(10, 1, 1, 0.25);
+  color: white;
+  background-color: transparent;
+  font-size: 20px; /* Butonun metin boyutunu küçült */
+  width: 50px; /* Butonun genişliğini küçült */
+}
+.btn i {
+  
+  font-size: 20px; /* İkonun boyutunu küçült */
+}
+h6{
+  color:rgb(223, 189, 185);
+}
+.collapse{
+border-radius: 30px;
+ border-top-left-radius: 30px;
+ border-top-right-radius: 30px;
+ border-bottom-right-radius: 30px;
+ border-bottom-left-radius: 30px;
+ background-color: rgba(0, 0,0,.25);
 
-
+}
 
 /* İletişim & Sosyal Medya Kısmı */
  .social-media-text {
