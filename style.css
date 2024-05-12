@@ -35,7 +35,11 @@ img{
   width: 100px;
   height: 8vh;
 }
+/* wiifi css */
+.btn{
 
+  width: 80px;
+}
 
 .MenuButon {  
   display: flex;
@@ -116,6 +120,8 @@ img{
 }
 
 #select{
+  flex-direction: row;
+  width: 100px;
   color: rgb(255, 255, 25) !important;
   background-color: #222 !important;
 }  
