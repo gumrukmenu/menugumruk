@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         img.style.display = 'block';
         setTimeout(function() {
             img.style.display = 'none';
-        }, 2000); // 5 saniye sonra resmi gizle
+        }, 6000); // 5 saniye sonra resmi gizle
     }
 
     showFullscreenImage(); // Sayfa yüklendiğinde resmi göster
