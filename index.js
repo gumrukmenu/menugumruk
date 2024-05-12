@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Mail ikonuna tıklanınca yönlendirme işlemi
 document.getElementById('mailIcon').addEventListener('click', function () {
-  window.open('mailto:info@karakoygumruk.com.tr');
+  window.open('mailto:info@karakoygumruk.com');
 });
 
 // ingilizce sayfaya yönlendırıldı

@@ -21,7 +21,7 @@
 }
 /* burada header yukseklık tanımlandı */
 .header-height{
-height: 80vh;
+height: 70vh;
 
 }
 /* ındextkı tum img wıdth tanımlandı */
@@ -35,11 +35,7 @@ img{
   width: 100px;
   height: 8vh;
 }
-/* wiifi css */
-.btn{
 
-  width: 80px;
-}
 
 .MenuButon {  
   display: flex;
@@ -47,7 +43,7 @@ img{
   font-weight: 600;
   font-style: bold;
   color:goldenrod;
-    flex: 1 1;
+  flex: 1 1;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
@@ -120,22 +116,17 @@ img{
 }
 
 #select{
-  flex-direction: row;
-  width: 100px;
+  width: 120px;
   color: rgb(255, 255, 25) !important;
   background-color: #222 !important;
 }  
-
-
-/*  Hoşgeldınız yazısı css */
-
 
 
 
 
 /* İletişim & Sosyal Medya Kısmı */
  .social-media-text {
-  color: rgb(255, 255, 25);
+  color: rgb(255, 255, 25) !important;
   text-align: center;
   margin-top: -50px;
   font-family: "Anta", sans-serif;
