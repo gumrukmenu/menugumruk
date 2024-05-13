@@ -4,7 +4,7 @@ function redirectToMenu() {
 // İnstagram ikonuna tıklanınca yönlendirme işlemi
 document.getElementById('instagramIcon').addEventListener('click', function () {
   // Yönlendirme işlemi
-  window.open('https://www.instagram.com/', '_blank'); // Instagram sayfasını yeni sekmede aç
+  window.open('https://www.instagram.com/karakoygumruk/', '_blank'); // Instagram sayfasını yeni sekmede aç
 });
 
 // Telefon ikonuna tıklanınca telefon uygulamasını başlatma işlemi
@@ -27,3 +27,6 @@ document.getElementById('select').addEventListener('change', function () {
   var selectedValue = selectBox.options[selectBox.selectedIndex].value;
   window.location.href = selectedValue;
 });
+
+
+

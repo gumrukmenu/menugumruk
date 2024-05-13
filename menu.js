@@ -28,3 +28,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     showFullscreenImage(); // Sayfa yüklendiğinde resmi göster
 });
+// function menuKontrol() {
+//     var suAn = new Date();
+//     var saat = suAn.getHours();
+
+//     var headingKahvalti = document.getElementById("headingKahvalti");
+
+//     if (saat >= 7 && saat < 12) {
+//         headingKahvalti.style.display = "block"; // Menüyü göster
+//     } else {
+//         headingKahvalti.style.display = "none"; // Menüyü gizle
+//     }  }
+
+//   // Belirli aralıklarla kontrol etmek için
+//   setInterval(menuKontrol, 10000); // Her 10 saniyede bir kontrol etmek için
