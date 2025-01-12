@@ -15,19 +15,19 @@ $(document).ready(function(){
   });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    var img = document.getElementById('fullscreen-img');
+// document.addEventListener("DOMContentLoaded", function() {
+//     var img = document.getElementById('fullscreen-img');
 
-    // Resmi ekranda tam boyutta göster
-    function showFullscreenImage() {
-        img.style.display = 'block';
-        setTimeout(function() {
-            img.style.display = 'none';
-        }, 6000); // 5 saniye sonra resmi gizle
-    }
+//     // Resmi ekranda tam boyutta göster
+//     function showFullscreenImage() {
+//         img.style.display = 'block';
+//         setTimeout(function() {
+//             img.style.display = 'none';
+//         }, 6000); // 5 saniye sonra resmi gizle
+//     }
 
-    showFullscreenImage(); // Sayfa yüklendiğinde resmi göster
-});
+//     showFullscreenImage(); // Sayfa yüklendiğinde resmi göster
+// });
 // function menuKontrol() {
 //     var suAn = new Date();
 //     var saat = suAn.getHours();
