@@ -194,7 +194,15 @@ hr {
 	padding-top: 130px !important;
 	
 }
-
+.borderx {
+    border-image: url(./img/body\ \(1\).png);
+    border-image-slice: 100;
+    border-image-repeat: stretch;
+    border-image-width:80px;
+    text-align: center;
+    padding: 50px;
+    margin: 80px;
+  }
 
 .header{
     width: 100%;
