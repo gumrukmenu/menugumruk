@@ -58,7 +58,8 @@ p {
         border-image-width: 20px;
         margin-top: 0%;
         padding-top: 0%;
-        width:100% ;
+        margin: 20px;
+        width:50% ;
     }
 
  
@@ -71,11 +72,11 @@ p {
         border-image-slice: 80;
         border-image-repeat: stretch;
         border-image-width: 90px;
-        width:100% ;
+        width:97% ;
         padding-top: 1%;
-        display:content;
-        padding-top: 0;
-        margin-top: 1%;
+        margin-top:4%;
+        margin: 1%;
+
      
     }
 
@@ -198,9 +199,8 @@ hr {
     border-image-slice: 100;
     border-image-repeat: stretch;
     border-image-width:60px;
-    margin: 0%;
-    padding: 0%;
 }
+
 
 
 .header{

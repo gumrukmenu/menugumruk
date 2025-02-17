@@ -8,7 +8,7 @@
   background-color: black;
   color:white;
 }
-.borderx {
+/* .borderx {
   border-image: url(./img/body\ \(1\).png);
   border-image-slice: 100;
   border-image-repeat: stretch;
@@ -16,7 +16,9 @@
   text-align: center;
   padding: 50px;
   margin: 80px;
-}
+  background-color: aliceblue !important;
+
+} */
 /* heder navbar alt kısımı */
 .header{
 
